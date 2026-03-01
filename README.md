@@ -41,19 +41,19 @@ The shape begins by moving the drawing cursor to a starting position using the M
 
 Path Commands Explanation
 
-Move To command is used to move the drawing cursor to a specific coordinate without drawing a line. In this project, it moves the cursor to coordinate position 285, 240, which acts as the starting point.
+Move To command is used to move the drawing cursor to a specific coordinate without drawing a line. In this project, it moves the cursor to coordinate position 285, 240 which acts as the starting point.
 
 Line To command is used to draw a straight line from the current position to a new coordinate. In this project, a line is drawn from the starting point to coordinate 432, 185.
 
-Arc - command is used to create a curved elliptical arc. The arc command contains several parameters, including horizontal radius, vertical radius, rotation angle, large arc flag, sweep flag, and ending coordinates.
+Arc command is used to create a curved elliptical arc. The arc command contains several parameters including horizontal radius, vertical radius, rotation angle, large arc flag, sweep flag, and ending coordinates.
 
-The horizontal radius is 190 units and controls the width of the curve. The vertical radius is 260 units and controls the height of the curve. The rotation angle is 35 degrees, which tilts the arc. The large arc flag is set to 1, which means the larger arc path is drawn. The sweep flag is also set to 1, which controls the direction of the arc. The arc ends at coordinate 265, 85.
-The 
+The horizontal radius is 190 units and controls the width of the curve. The vertical radius is 260 units and controls the height of the curve. The rotation angle is 35 degrees which tilts the arc. The large arc flag is set to 1 which means the larger arc path is drawn. The sweep flag is also set to 1 which controls the direction of the arc. The arc ends at coordinate 265, 85.
+
 Close Path command is used to connect the last point of the path back to the starting point. This allows the shape to be filled with color properly.
 
 Color Design
 
-The shape is filled using the color code #d55656, which represents a soft red tone. This color was selected to create a visually balanced vector shape on the white background.
+The shape is filled using the color code #d55656 which represents a soft red tone. This color was selected to create a visually balanced vector shape on the white background.
 
 SVG Command Summary
 
